@@ -91,13 +91,15 @@ const MainPage = () => {
                 </div>
             </div>
             <div className="main-page">
-            <div className="content">
-            {showSidebar && <SideBar />} 
-              <ProductsList />
+                <div className="content">
+                    
+           {showSidebar && <SideBar className="main-side"/>} 
+                        <ProductsList />
+
+                </div>
             </div>
-                  </div>
         </div>
-        
+
 
   )
 }
