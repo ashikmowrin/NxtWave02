@@ -1,0 +1,64 @@
+.sidenav {
+  width: 25%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: auto;
+  padding-top: 20px;
+}
+
+.sidenav a,
+.dropdown-btn {
+  padding: 5px 5px 5px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  border: 1px solid black;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+.drop-icon {
+  width: 15px;
+  height: 15px;
+  margin-left: 0; 
+}
+
+.sidenav a:hover,
+.dropdown-btn:hover {
+  color: black;
+}
+
+.active {
+  background-color: rgb(160, 163, 160);
+  color: white;
+}
+
+.dropdown-container {
+  background-color: white;
+  padding-left: 20px;
+  display: none; 
+}
+
+.dropdown-container label {
+  display: block;
+  margin: 6px 0;
+  color: #818181;
+  font-size: 18px;
+}
+
+.fa-caret-down {
+  display: none;  
+}
+
+.dropdown-btn.active .fa-caret-down {
+  display: inline-block; 
+}
+

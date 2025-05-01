@@ -1,0 +1,295 @@
+
+.plp {
+    font-family: Arial, sans-serif; 
+  }
+  
+
+  .header {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 10px 20px; 
+    background-color: #333; 
+    color: white; 
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    width: 100%; 
+    top: 0; 
+    z-index: 1000; 
+    border:  2px solid palevioletred;
+  }
+
+
+.header_1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;  
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;  
+  }
+  
+
+  .navbar-logo {
+    flex: 1;
+  }
+  
+  .logo {
+    height: 40px;  
+    object-fit: contain;  
+  }
+  
+
+  .navbar-center {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .navbar-center h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: white;
+  }
+  
+
+  .navbar-icons {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  
+
+  .icon {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s ease;  
+  }
+  
+  .icon:hover {
+    color: #ccc; 
+  }
+  
+
+  .dropdown-toggle {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-toggle:focus {
+    outline: none; 
+  }
+  
+
+  .dropdown-menu {
+    background-color: #333;  
+    border: none;  
+  }
+  
+  .dropdown-item {
+    color: white;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #444;  
+    color: #ddd;  
+  }
+  
+ 
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+      padding: 10px 5px;
+    }
+  
+    .navbar-center {
+        flex: 2;
+        text-align: center;
+        margin: 0;               
+        padding: 0;             
+        display: flex;
+        justify-content: center;
+        align-items: center;  }   
+      
+      .navbar-center h1 {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0;
+        color: white;
+      }
+  
+    .navbar-icons {
+      margin-top: 10px;
+      gap: 10px;
+    }
+  }
+  
+  
+
+  .header_2 {
+    
+    margin-top: 60px;
+    
+    
+  }
+  
+  .header_2 a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    transition: background-color 0.3s; 
+  }
+  
+
+  .header_2 a:hover {
+    background-color: #555; 
+    border-radius: 5px; 
+  }
+
+  
+.content {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  .sidebar {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .dropdown-container {
+    margin-bottom: 15px;
+  }
+  
+  .main-content {
+    flex: 3;
+  }
+  
+  .main-content h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  
+  .main-content p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  
+  .sidenav-container {
+    position: fixed; 
+    top: 104px;
+    left: 0;
+    width: 240px;
+    height: 100vh; 
+    background-color: #f4f4f4;  
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.1); 
+    z-index: 9999;
+    overflow-y: auto; 
+  }
+  
+ 
+  .sidenav-body {
+    padding-top: 20px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+  }
+  
+
+  .sidenav-item {
+    padding: 10px 0;
+  }
+  
+  
+  .sidenav-checkbox {
+    margin-left: 20px; 
+    margin-bottom: 5px; 
+  }
+  
+  
+  .sidenav-menu {
+    padding: 10px 15px;
+    font-weight: bold;
+  }
+  
+
+  .selected-options {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .title-text{
+    border: 2px solid greenyellow;
+    margin-top: 0;
+  }
+  .App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+  }
+  
+  .card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+    text-align: center;
+  }
+  
+  .card p {
+    font-size: 14px;
+    color: #333;
+    text-align: center;
+  }
+  
+  .price {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+  }

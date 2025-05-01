@@ -1,0 +1,169 @@
+
+.page-body {
+
+    display: block;
+  }
+  
+
+.header{
+  
+    background-color: white;
+    color: black;
+    border: none;
+    display: block;
+    padding: 0;
+    position: inherit;
+
+  
+}
+
+.nav-layer-one{
+
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+
+}
+
+.nav-icons svg{
+    margin-right: 20px;
+}
+
+.navbaricons{
+    cursor: pointer;
+}
+
+.sorting-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .sorting-button {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    border-radius: 5px;
+  }
+  
+  .sorting-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 4px;
+    width: 180px;
+    z-index: 10;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+  }
+  
+  .sorting-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sorting-item:hover {
+    background-color: #f0f0f0;
+  }
+
+  .sorting-button img{
+    width: 15px;
+}
+
+
+.drop-down-button img{
+    width: 15px;
+}
+
+
+
+
+.nav-layer-one button{
+    border: 0;
+    outline: 0;
+    padding: 7px;
+    border-radius: 4x;
+    cursor: pointer;
+}
+
+.nav-layer-two{
+     display: flex;
+        width: 100%;
+     align-items: center;
+     justify-content: space-evenly;
+
+     padding: 0  30px;
+     
+
+}
+
+.nav-layer-two button{
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+.text{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.text h6{
+    padding: 0  60px;
+}
+
+.tab{
+    display: flex;
+   justify-content: space-between;
+   padding: 1px 20px; 
+   align-items: center;
+   border: 1px solid rgb(75, 75, 75);
+}
+
+.filter {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+
+  
+}
+
+.navbaricons{
+    size: 30px;
+}
+
+.tab button{
+    background:  transparent;
+    border-radius: 10px; 
+    border: none;   
+    padding-left: 20px;    
+}
+.filter-box{
+    width: 20%;
+    display: block;
+
+}
+
+.filter-box button{
+    display: block;
+    width: 100%;
+}
+
+.plp-box{
+
+    height: auto;
+    width: 100%;
+}
+
+.main-page{
+
+    height: 00px;
+    width: 100%;
+}
